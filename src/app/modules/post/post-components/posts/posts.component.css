@@ -1,0 +1,7 @@
+.container {
+  height: 66vh;
+  border: 1px solid black;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  padding: 5px;
+}
