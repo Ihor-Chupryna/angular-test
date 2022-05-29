@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  border: 1px solid green;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: green;
+}
