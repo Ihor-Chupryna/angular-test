@@ -1,10 +1,18 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+
+import {IUser} from "./interfaces/user.interface";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'angular-test';
+  user: IUser
+
+  catch($event: IUser) {
+    console.log($event)
+    this.user = $event
+  }
 }
